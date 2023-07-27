@@ -1,4 +1,3 @@
-
 .container {
   display: flex;
   flex-direction: column;
@@ -32,15 +31,30 @@
   justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 75px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.experienced-icons {
+  margin-top: 20px;
+}
 
 .centered-text {
   text-align: center;
@@ -76,4 +90,3 @@
 body {
   background-color: #282c34;
 }
-
