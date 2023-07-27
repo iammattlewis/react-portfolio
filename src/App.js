@@ -47,58 +47,56 @@ function App() {
       <FrozenMenuBar items={items}/>
       <h1>Matthew Lewis - Software Developer</h1>
       <h3>Experienced With:</h3>
-      <div className="experienced-icons">
-        <div className="row">
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faReact} style={{ fontSize: "1.75rem" }}/>
-            </div>
-            <p>React</p>
+      <div className="row">
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faReact} style={{ fontSize: "1.75rem" }}/>
           </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "1.75rem" }}/>
-            </div>
-            <p>JavaScript</p>
-          </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "1.75rem" }}/>
-            </div>
-            <p>HTML</p>
-          </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "1.75rem" }}/>
-            </div>
-            <p>CSS</p>
-          </div>
+          <p>React</p>
         </div>
-        <div className="row">
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faBootstrap} style={{ fontSize: "1.75rem" }} />
-            </div>
-            <p>Bootstrap</p>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "1.75rem" }}/>
           </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faNodeJs} style={{ fontSize: "1.75rem" }} />
-            </div>
-            <p>Node.js</p>
+          <p>JavaScript</p>
+        </div>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "1.75rem" }}/>
           </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faApple} style={{ fontSize: "1.75rem" }} />
-            </div>
-            <p>macOS</p>
+          <p>HTML</p>
+        </div>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "1.75rem" }}/>
           </div>
-          <div className="icon-container">
-            <div className="icon">
-              <FontAwesomeIcon icon={faWindows} style={{ fontSize: "1.75rem" }} />
-            </div>
-            <p>Windows</p>
+          <p>CSS</p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faBootstrap} style={{ fontSize: "1.75rem" }} />
           </div>
+          <p>Bootstrap</p>
+        </div>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faNodeJs} style={{ fontSize: "1.75rem" }} />
+          </div>
+          <p>Node.js</p>
+        </div>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faApple} style={{ fontSize: "1.75rem" }} />
+          </div>
+          <p>macOS</p>
+        </div>
+        <div className="icon-container">
+          <div className="icon">
+            <FontAwesomeIcon icon={faWindows} style={{ fontSize: "1.75rem" }} />
+          </div>
+          <p>Windows</p>
         </div>
       </div>
       <h3 id="projects">Check Out My Projects:</h3>
