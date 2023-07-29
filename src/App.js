@@ -50,25 +50,33 @@ function App() {
       <div className="row">
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faReact} style={{ fontSize: "1.75rem" }}/>
+            <a href="https://react.dev/" target="_blank">
+              <FontAwesomeIcon icon={faReact} style={{ fontSize: "1.75rem" }}/>
+            </a>
           </div>
           <p>React</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "1.75rem" }}/>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+              <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "1.75rem" }}/>
+            </a>
           </div>
           <p>JavaScript</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "1.75rem" }}/>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+              <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "1.75rem" }}/>
+            </a>
           </div>
           <p>HTML</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "1.75rem" }}/>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+              <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "1.75rem" }}/>
+            </a>
           </div>
           <p>CSS</p>
         </div>
@@ -76,25 +84,33 @@ function App() {
       <div className="row">
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faBootstrap} style={{ fontSize: "1.75rem" }} />
+            <a href="https://getbootstrap.com/" target="_blank">
+              <FontAwesomeIcon icon={faBootstrap} style={{ fontSize: "1.75rem" }} />
+            </a>
           </div>
           <p>Bootstrap</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faNodeJs} style={{ fontSize: "1.75rem" }} />
+            <a href="https://nodejs.org/en/about" target="_blank">
+              <FontAwesomeIcon icon={faNodeJs} style={{ fontSize: "1.75rem" }} />
+            </a>
           </div>
           <p>Node.js</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faApple} style={{ fontSize: "1.75rem" }} />
+            <a href="https://en.wikipedia.org/wiki/MacOS" target="_blank">
+              <FontAwesomeIcon icon={faApple} style={{ fontSize: "1.75rem" }} />
+            </a>
           </div>
           <p>macOS</p>
         </div>
         <div className="icon-container">
           <div className="icon">
-            <FontAwesomeIcon icon={faWindows} style={{ fontSize: "1.75rem" }} />
+            <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" target="_blank">
+              <FontAwesomeIcon icon={faWindows} style={{ fontSize: "1.75rem" }} />
+            </a>
           </div>
           <p>Windows</p>
         </div>
