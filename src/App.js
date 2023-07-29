@@ -101,7 +101,9 @@ function App() {
       </div>
       <h3 id="projects">Check Out My Projects:</h3>
       <div className="text-center">
-        <img src="/decoder_screenshot.jpg" width="500dvh"></img>
+        <a href="https://iammattlewis.github.io/decoder_ring/" target="_blank">
+          <img src="/decoder_screenshot.jpg" width="500dvh"></img>
+        </a>  
         <div className="links">
           <a href="https://github.com/iammattlewis/decoder_ring" target="_blank" style={{ marginRight: "10px" }}><b>CODE</b></a>
           <a href="https://iammattlewis.github.io/decoder_ring/" target="_blank"><b>LIVE</b></a>
