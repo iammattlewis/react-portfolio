@@ -100,7 +100,7 @@ function App() {
         </div>
         <div className="icon-container">
           <div className="icon">
-            <a href="https://en.wikipedia.org/wiki/MacOS" target="_blank">
+            <a href="https://www.apple.com/macos" target="_blank">
               <FontAwesomeIcon icon={faApple} style={{ fontSize: "1.75rem" }} />
             </a>
           </div>
@@ -108,7 +108,7 @@ function App() {
         </div>
         <div className="icon-container">
           <div className="icon">
-            <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" target="_blank">
+            <a href="https://www.microsoft.com/en-us/windows" target="_blank">
               <FontAwesomeIcon icon={faWindows} style={{ fontSize: "1.75rem" }} />
             </a>
           </div>
