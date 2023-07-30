@@ -8,6 +8,13 @@
   color: white;
 }
 
+#projects,
+#about,
+#experience,
+#connect {
+  padding-top: 60px;
+}
+
 .container p {
   margin: 0;
 }
@@ -29,6 +36,7 @@
 .social-icons {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .row {
