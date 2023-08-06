@@ -117,14 +117,23 @@ function App() {
       </div>
       <h3 id="projects">Check Out My Projects:</h3>
       <div className="text-center">
-        <a href="https://iammattlewis.github.io/decoder_ring/" target="_blank">
-          <img src="/decoder_screenshot.jpg" width="500dvh"></img>
+        <a href="https://iammattlewis.github.io/decoder-ring/" target="_blank">
+          <img src="/decoder-screenshot.jpg" width="500dvh"></img>
         </a>  
         <div className="links">
-          <a href="https://github.com/iammattlewis/decoder_ring" target="_blank" style={{ marginRight: "10px" }}><b>CODE</b></a>
-          <a href="https://iammattlewis.github.io/decoder_ring/" target="_blank"><b>LIVE</b></a>
+          <a href="https://github.com/iammattlewis/decoder-ring" target="_blank" style={{ marginRight: "10px" }}><b>CODE</b></a>
+          <a href="https://iammattlewis.github.io/decoder-ring/" target="_blank"><b>LIVE</b></a>
         </div>
-      </div>
+      </div>  
+      <div className="text-center">
+        <a href="https://matt-lewis-flashcard-app.netlify.app/" target="_blank" style={{ marginTop: "10px" }}>
+          <img src="/flashcard-screenshot.jpg" width="500dvh"></img>
+        </a>
+        <div className="links">
+          <a href="https://github.com/iammattlewis/flashcard-app" target="_blank" style={{ marginRight: "10px" }}><b>CODE</b></a>
+          <a href="https://matt-lewis-flashcard-app.netlify.app/" target="_blank"><b>LIVE</b></a>
+        </div>
+      </div>  
       <h2 id="about">About Me:</h2>
       <p className="centered-text">
         After years of working in warehouses,<br />
