@@ -116,6 +116,8 @@ function App() {
         </div>
       </div>
       <h3 id="projects">Check Out My Projects:</h3>
+      <p><b>Decoder Ring:</b> A site that allows users to encrypt<br /> 
+        and decrypt messages. Built using JavaScript, HTML, CSS.</p>
       <div className="text-center">
         <a href="https://iammattlewis.github.io/decoder-ring/" target="_blank">
           <img src="/decoder-screenshot.jpg" width="500dvh"></img>
@@ -125,6 +127,8 @@ function App() {
           <a href="https://iammattlewis.github.io/decoder-ring/" target="_blank"><b>LIVE</b></a>
         </div>
       </div>  
+      <p style={{ marginTop: "10px" }}><b>Flashcard-o-matic:</b>A site that allows the user to create<br /> 
+      and edit decks of flashcards. Built using React, CSS.</p>
       <div className="text-center">
         <a href="https://matt-lewis-flashcard-app.netlify.app/" target="_blank" style={{ marginTop: "10px" }}>
           <img src="/flashcard-screenshot.jpg" width="500dvh"></img>
