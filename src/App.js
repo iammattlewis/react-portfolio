@@ -130,7 +130,7 @@ function App() {
       <p className="project-description"><b>Flashcard-o-matic:</b>A site that allows the user to create<br /> 
       and edit decks of flashcards. Built using React, CSS.</p>
       <div className="text-center">
-        <a href="https://matt-lewis-flashcard-app.netlify.app/" target="_blank" style={{ marginTop: "10px" }}>
+        <a href="https://matt-lewis-flashcard-app.netlify.app/" target="_blank" style={{ marginTop: "0px" }}>
           <img src="/flashcard-screenshot.jpg" width="500dvh"></img>
         </a>
         <div className="links">
