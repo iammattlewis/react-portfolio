@@ -13,6 +13,11 @@
 #experience,
 #connect {
   padding-top: 60px;
+
+}
+
+.project-description {
+  padding-bottom: 10px;
 }
 
 .container p {
@@ -78,6 +83,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hobbies {
